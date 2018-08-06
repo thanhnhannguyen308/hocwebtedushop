@@ -6,7 +6,7 @@ using TeduShop.Model.Abstract;
 namespace TeduShop.Model.Models
 {
     [Table("PostCategories")]
-    public class PostCategorie : Auditable
+    public class PostCategory : Auditable
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
